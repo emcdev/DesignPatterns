@@ -11,16 +11,19 @@ public class Publisher implements Subject {
 
     @Override
     public void registerObserver(Observer observer) {
+        System.out.println("Add observer");
         observers.add(observer);
     }
 
     @Override
     public void removeObserver(Observer observer) {
+        System.out.println("Remove observer");
         observers.remove(observer);
     }
 
     @Override
     public void notifyObservers() {
+        System.out.println("Notify observers");
         for (Observer observer : observers) {
             // this is a push approach
             observer.update(latestEvent);
@@ -28,6 +31,7 @@ public class Publisher implements Subject {
     }
 
     void setEvent(Event event) {
+        System.out.println("New event");
         latestEvent = event;
         notifyObservers();
     }

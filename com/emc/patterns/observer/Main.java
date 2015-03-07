@@ -13,6 +13,10 @@ class Main {
 
         publisher.setEvent(new Event());
 
+        publisher.removeObserver(subscriberA);
+
+        publisher.setEvent(new Event());
+
     }
 
 }
