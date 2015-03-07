@@ -8,11 +8,11 @@ class Main {
 
         Behavior dog = new DogBehavior();
         animal.setBehavior(dog);
-        animal.doBehavior();
+        animal.showBehavior();
 
         Behavior cat = new CatBehavior();
         animal.setBehavior(cat);
-        animal.doBehavior();
+        animal.showBehavior();
 
     }
 

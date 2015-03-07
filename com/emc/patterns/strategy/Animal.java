@@ -4,16 +4,16 @@ class Animal {
 
     private Behavior strategy;
 
-    public Animal() {
+    Animal() {
         super();
     }
 
-    public void setBehavior(Behavior strategy) {
+    void setBehavior(Behavior strategy) {
         this.strategy = strategy;
     }
 
-    public void doBehavior() {
-        strategy.doOperation();
+    void showBehavior() {
+        strategy.showBehavior();
     }
 
 }
