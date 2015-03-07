@@ -2,17 +2,17 @@ package com.emc.patterns.strategy;
 
 class Animal {
 
-    private SoundStrategy strategy;
+    private Behavior strategy;
 
     public Animal() {
         super();
     }
 
-    public void setStrategy(SoundStrategy strategy) {
+    public void setBehavior(Behavior strategy) {
         this.strategy = strategy;
     }
 
-    public void doStrategy() {
+    public void doBehavior() {
         strategy.doOperation();
     }
 

@@ -1,5 +1,5 @@
 package com.emc.patterns.strategy;
 
-interface SoundStrategy {
+interface Behavior {
     void doOperation();
 }

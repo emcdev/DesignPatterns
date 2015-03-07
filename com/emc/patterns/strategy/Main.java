@@ -4,15 +4,15 @@ class Main {
 
     public static void main(String[] args) {
 
-        Animal context = new Animal();
+        Animal animal = new Animal();
 
-        SoundStrategy strategyA = new DogSound();
-        context.setStrategy(strategyA);
-        context.doStrategy();
+        Behavior dog = new DogBehavior();
+        animal.setBehavior(dog);
+        animal.doBehavior();
 
-        SoundStrategy strategyB = new CatSound();
-        context.setStrategy(strategyB);
-        context.doStrategy();
+        Behavior cat = new CatBehavior();
+        animal.setBehavior(cat);
+        animal.doBehavior();
 
     }
 

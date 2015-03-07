@@ -1,6 +1,6 @@
 package com.emc.patterns.strategy;
 
-public class DogSound implements SoundStrategy {
+public class DogBehavior implements Behavior {
 
     @Override
     public void doOperation() {

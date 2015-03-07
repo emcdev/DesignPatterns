@@ -1,6 +1,6 @@
 package com.emc.patterns.strategy;
 
-public class CatSound implements SoundStrategy {
+public class CatBehavior implements Behavior {
 
     @Override
     public void doOperation() {
