@@ -8,6 +8,7 @@ class Animal {
         super();
     }
 
+    // enable behavior to change dynamically during runtime
     void setBehavior(Behavior behavior) {
         this.behavior = behavior;
     }
