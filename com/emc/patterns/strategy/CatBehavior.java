@@ -1,9 +1,9 @@
 package com.emc.patterns.strategy;
 
-public class CatBehavior implements Behavior {
+class CatBehavior implements Behavior {
 
     @Override
-    public void doOperation() {
+    public void showBehavior() {
         System.out.println("Meow...");
     }
 

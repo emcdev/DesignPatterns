@@ -2,18 +2,18 @@ package com.emc.patterns.strategy;
 
 class Animal {
 
-    private Behavior strategy;
+    private Behavior behavior;
 
-    public Animal() {
+    Animal() {
         super();
     }
 
-    public void setBehavior(Behavior strategy) {
-        this.strategy = strategy;
+    void setBehavior(Behavior behavior) {
+        this.behavior = behavior;
     }
 
-    public void doBehavior() {
-        strategy.doOperation();
+    void showBehavior() {
+        behavior.showBehavior();
     }
 
 }
