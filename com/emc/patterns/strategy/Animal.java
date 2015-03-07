@@ -4,15 +4,15 @@ class Animal {
 
     private Behavior behavior;
 
-    public Animal() {
+    Animal() {
         super();
     }
 
-    public void setBehavior(Behavior behavior) {
+    void setBehavior(Behavior behavior) {
         this.behavior = behavior;
     }
 
-    public void showBehavior() {
+    void showBehavior() {
         behavior.showBehavior();
     }
 
