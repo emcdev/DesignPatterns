@@ -11,11 +11,11 @@ public class Main {
 
         SoundStrategy strategyA = new DogSound();
         context.setStrategy(strategyA);
-        context.doStrategy(argA, argB);
+        context.doStrategy();
 
         SoundStrategy strategyB = new CatSound();
         context.setStrategy(strategyB);
-        context.doStrategy(argA, argB);
+        context.doStrategy();
 
     }
 

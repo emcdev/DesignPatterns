@@ -12,7 +12,7 @@ public class Animal {
         this.strategy = strategy;
     }
 
-    public void doStrategy(int argA, int argB) {
+    public void doStrategy() {
         strategy.doOperation();
     }
 
