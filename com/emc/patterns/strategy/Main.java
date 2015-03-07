@@ -8,6 +8,9 @@ public class Main {
 
         Context context = new Context(strategyA);
 
+        int argA = 0;
+        int argB = 0;
+
         context.doStrategy(argA, argB);
 
     }
