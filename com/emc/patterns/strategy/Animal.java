@@ -1,8 +1,8 @@
 package com.emc.patterns.strategy;
 
-public class Animal {
+class Animal {
 
-    SoundStrategy strategy;
+    private SoundStrategy strategy;
 
     public Animal() {
         super();
