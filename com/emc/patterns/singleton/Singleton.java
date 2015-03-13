@@ -6,6 +6,7 @@ package com.emc.patterns.singleton;
 //
 
 public class Singleton {
+
     private volatile static Singleton uniqueInstance;
 
     private Singleton() {
