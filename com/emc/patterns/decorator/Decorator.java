@@ -5,6 +5,7 @@ abstract class Decorator implements Component {
     private final Component component;
 
     Decorator(Component component) {
+        // test
         this.component = component;
     }
 
