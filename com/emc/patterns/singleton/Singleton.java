@@ -13,6 +13,7 @@ public class Singleton {
     }
 
     public static Singleton getInstance() {
+
         if (uniqueInstance == null) {
             synchronized (Singleton.class) {
                 if (uniqueInstance == null) {
@@ -20,6 +21,7 @@ public class Singleton {
                 }
             }
         }
+
         return uniqueInstance;
     }
 }
