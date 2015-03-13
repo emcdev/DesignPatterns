@@ -1,6 +1,6 @@
 package com.emc.patterns.decorator;
 
-public interface Component {
+interface Component {
 
     void doOperation();
 
