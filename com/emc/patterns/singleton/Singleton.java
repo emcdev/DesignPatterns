@@ -1,10 +1,6 @@
 package com.emc.patterns.singleton;
 
-//
-// Danger!  This implementation of Singleton not
-// guaranteed to work prior to Java 5
-//
-
+// This implementation of singleton is not guaranteed to work prior to java 5
 public class Singleton {
 
     private volatile static Singleton uniqueInstance;
